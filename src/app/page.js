@@ -4,6 +4,7 @@ import Projects from "@/pages/Projects";
 import Navbar from "@/components/Navbar";
 import Contact from "@/pages/Contact";
 import Intro from "@/pages/Intro";
+import SideItem from "@/components/SideItem";
 // import About from "./pages/About";
 
 export default function Home() {
@@ -11,10 +12,13 @@ export default function Home() {
     <>
       <Navbar />
       <Intro />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
+      <div className="mx-56">
+        <About />
+        <Experience />
+        <Projects />
+        <Contact />
+      </div>
+      <SideItem />
     </>
   );
 }
