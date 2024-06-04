@@ -10,6 +10,7 @@ const Navbar = () => {
       <div className="flex justify-end items-center text-lg space-x-8">
         <Link href="/">Home</Link>
         <Link href="#about">About</Link>
+        <Link href="#skills">Skills</Link>
         <Link href="#experience">Experience</Link>
         <Link href="#projects">Projects</Link>
         <Link href="#contact">Contact</Link>

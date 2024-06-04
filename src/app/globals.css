@@ -11,6 +11,7 @@
 html {
   font-size: 16px; /* Base font size for rem units */
   scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+  --line-color: #ffffff;
 }
 
 body {

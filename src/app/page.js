@@ -5,6 +5,7 @@ import Navbar from "@/components/Navbar";
 import Contact from "@/pages/Contact";
 import Intro from "@/pages/Intro";
 import SideItem from "@/components/SideItem";
+import Skills from "@/pages/Skills";
 // import About from "./pages/About";
 
 export default function Home() {
@@ -12,8 +13,9 @@ export default function Home() {
     <>
       <Navbar />
       <Intro />
-      <div className="mx-56">
+      <div className="flex flex-col mx-56 gap-32">
         <About />
+        <Skills />
         <Experience />
         <Projects />
         <Contact />

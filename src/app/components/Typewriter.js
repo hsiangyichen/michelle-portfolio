@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 
 const Typewriter = ({ texts, period }) => {
-  const [text, setText] = useState("");
+  const [text, setText] = useState("a Software Engineer");
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNum, setLoopNum] = useState(0);
   const [delta, setDelta] = useState(200 - Math.random() * 100);
@@ -43,12 +43,6 @@ const Typewriter = ({ texts, period }) => {
   return (
     <h1>
       <span className="wrap">{text}</span>
-      <style jsx>{`
-        .wrap {
-          //   font-size: 3rem;
-          border-right: 0.12em solid #000;
-        }
-      `}</style>
     </h1>
   );
 };

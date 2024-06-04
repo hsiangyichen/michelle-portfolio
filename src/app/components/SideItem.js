@@ -1,42 +1,39 @@
-// import Github from "@assets/icons/small-github.svg";
-// import Linkedin from "@assets/icons/small-linkedin.svg";
-// import Mail from "@assets/icons/small-mail.svg";
+"use client";
 import { Instagram, Linkedin, Github, Mail } from "lucide-react";
+import { Fade } from "react-awesome-reveal";
 
 const SideItem = () => {
   return (
     <div>
       <div className="fixed right-14 bottom-0 flex flex-col items-center gap-6">
-        <p
-          className="text-xs text-gray-800"
-          style={{ writingMode: "vertical-rl" }}
-        >
-          michellech2539@gmail.com
-        </p>
-        <div className="w-[1.5px] h-28 mr-[1.4px] bg-black"></div>
+        <Fade cascade damping={0.5} triggerOnce={true}>
+          <p
+            className="text-xs text-gray-800"
+            style={{ writingMode: "vertical-rl" }}
+          >
+            michellech2539@gmail.com
+          </p>
+          <div className="w-[1.5px] h-28 mr-[1.4px] bg-black"></div>
+        </Fade>
       </div>
-      <div className="fixed left-14 bottom-0 flex flex-col items-center gap-6">
-        {/* <p
-          className="text-xs text-gray-800"
-          style={{ writingMode: "vertical-rl" }}
-        >
-          Scroll down to know More About Me
-        </p> */}
-        <div className="flex flex-col gap-4">
+      <div className="fixed left-14 bottom-0 flex flex-col items-center ">
+        <Fade cascade damping={0.2} triggerOnce={true}>
+          {/* <div className="flex flex-col gap-4"> */}
           <a href="https://github.com/hsiangyichen">
-            <Github size={24} strokeWidth={2} />
+            <Github className="mb-4" size={24} strokeWidth={2} />
           </a>
           <a href="https://www.linkedin.com/in/michellech2539/">
-            <Linkedin size={24} strokeWidth={2} />
+            <Linkedin className="mb-4" size={24} strokeWidth={2} />
           </a>
           <a href="https://www.instagram.com/hsiangyi__chen/">
-            <Instagram size={24} strokeWidth={2} />
+            <Instagram className="mb-4" size={24} strokeWidth={2} />
           </a>
           <a href="mailto:michellech2539@gmail.com">
-            <Mail size={24} strokeWidth={2} />
+            <Mail className="mb-6" size={24} strokeWidth={2} />
           </a>
-        </div>
-        <div className="w-[1.5px] h-28 mr-[1.4px] bg-black"></div>
+          {/* </div> */}
+          <div className="w-[1.5px] h-28 mr-[1.4px] bg-black"></div>
+        </Fade>
       </div>
     </div>
   );

@@ -1,0 +1,113 @@
+.timeline {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.timeline:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 2px; /* Adjust line thickness */
+  background-color: #ccc; /* Adjust line color */
+  margin-left: -1px; /* Half of the width for centering */
+}
+
+.timeline-item-left,
+.timeline-item-right {
+  width: 50%; /* Adjust as needed */
+  margin-bottom: 20px; /* Adjust spacing */
+  position: relative; /* Position relative for z-index */
+}
+
+/* Style for left items */
+.timeline-item-left {
+  align-self: flex-start;
+  padding-right: 60px;
+}
+
+/* Style for right items */
+.timeline-item-right {
+  align-self: flex-end;
+  padding-left: 60px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 27px;
+  width: 0;
+  height: 0;
+  z-index: 10 !important;
+}
+
+.icon-left {
+  right: -30px;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+}
+
+.icon-right {
+  left: -30px;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+}
+
+.arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  z-index: 2;
+}
+
+.arrow-left {
+  top: 50px; /* 4px */
+  right: 52px;
+  transform: rotate(90deg);
+}
+
+.arrow-right {
+  top: 60px; /* 14px */
+  left: 52px;
+  transform: rotate(270deg);
+}
+
+.triangle {
+  position: relative;
+  background-color: white;
+  text-align: left;
+}
+.triangle:before,
+.triangle:after {
+  content: "";
+  position: absolute;
+  background-color: inherit;
+}
+.triangle,
+.triangle:before,
+.triangle:after {
+  width: 8px;
+  height: 8px;
+  border-top-right-radius: 40%;
+}
+
+.triangle {
+  transform: rotate(-60deg) skewX(-30deg) scale(1, 0.866);
+}
+.triangle:before {
+  transform: rotate(-135deg) skewX(-45deg) scale(1.414, 0.707)
+    translate(0, -50%);
+}
+.triangle:after {
+  transform: rotate(135deg) skewY(-45deg) scale(0.707, 1.414) translate(50%);
+}
