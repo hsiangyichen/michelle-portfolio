@@ -74,7 +74,7 @@ const TimelineItem = ({ experience, isLeftItem }) => {
             width={70}
             height={70}
           />
-          <h3 className="text-2xl">{experience.institution}</h3>
+          <h3 className="text-2xl font-semibold">{experience.institution}</h3>
         </div>
         <div className="flex items-center justify-between py-4">
           <h3>{experience.title}</h3>
