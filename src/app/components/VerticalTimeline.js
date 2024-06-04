@@ -60,7 +60,7 @@ const TimelineItem = ({ experience, isLeftItem }) => {
         animate={inView ? { scale: 1.0 } : { scale: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <div className="text-zinc-300">{experience.icon}</div>
+        <div className="text-[#ccc]">{experience.icon}</div>
       </motion.div>
 
       <div className={`arrow ${isLeftItem ? "arrow-left" : "arrow-right"}`}>

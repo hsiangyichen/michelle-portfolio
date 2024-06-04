@@ -10,7 +10,7 @@ import { Fade } from "react-awesome-reveal";
 const Intro = () => {
   return (
     <div id="intro" className="h-[90vh] flex items-center justify-center gap-6">
-      <div className="relative ml-[380px] mb-12">
+      <div className="relative ml-[380px] mb-4">
         <div className="absolute top-[130px] -left-[420px] flex flex-col gap-4 min-w-[520px] z-10">
           <Fade direction="down" duration={800} delay={500} triggerOnce={true}>
             <h1 className="text-5xl">
@@ -28,22 +28,28 @@ const Intro = () => {
             </div>
           </Fade>
           <Fade direction="up" duration={800} delay={500} triggerOnce={true}>
-            <div className="flex gap-5">
+            <div className="flex gap-5 mb-4">
               <a href="https://github.com/hsiangyichen">
-                <Github />
+                <Github className="transition-transform hover:scale-110" />
               </a>
               <a href="https://www.linkedin.com/in/michellech2539/">
-                <Linkedin />
+                <Linkedin className="transition-transform hover:scale-110" />
               </a>
               <a href="mailto:michellech2539@gmail.com">
-                <Mail />
+                <Mail className="transition-transform hover:scale-110" />
               </a>
             </div>
 
-            <a href="/files/resume.pdf" download className="w-64 my-12 ">
-              <button className="bg-dark-brown rounded-md p-4 text-lg text-white w-64">
-                Download My Resume
+            <a href="/files/resume.pdf" download className="w-64">
+              <button class="group relative p-4 w-64 overflow-hidden rounded-lg bg-dark-brown text-lg shadow text-white ">
+                <div class="absolute inset-y-0 right-0 w-0 bg-[#e3dede] transition-all rounded-lg duration-[250ms] ease-out group-hover:w-full  border-dark-brown border-2"></div>
+                <span class="relative group-hover:text-dark-brown group-hover:font-medium ">
+                  Download My Resume
+                </span>
               </button>
+              {/* <button className="bg-dark-brown rounded-md p-4 text-lg text-white w-64 hover:border-2 hover:border-dark-brown hover:text-dark-brown hover:bg-[#e3dede]">
+                Download My Resume
+              </button> */}
             </a>
           </Fade>
         </div>
