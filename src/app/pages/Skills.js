@@ -17,7 +17,7 @@ const Skills = () => {
           <ul className="flex flex-wrap justify-center gap-3 text-lg mb-3">
             {skillsLanguageData.map((skill, index) => (
               <li
-                className="bg-white border  border-zinc-400 rounded-lg px-6 py-3 shadow-xl transition duration-300 ease-out hover:bg-zinc-200 hover:-translate-y-1"
+                className="bg-white border  border-zinc-400 rounded-lg px-6 py-3 shadow-xl transition duration-300 ease-out hover:bg-hover-gray  hover:-translate-y-1"
                 key={index}
               >
                 {skill}
@@ -30,7 +30,7 @@ const Skills = () => {
           <ul className="flex flex-wrap justify-center gap-3 text-lg mb-3">
             {skillsFrameworkAndLibraryData.map((skill, index) => (
               <li
-                className="bg-white border  border-zinc-400 rounded-lg px-6 py-3 shadow-xl transition duration-300 ease-out hover:bg-zinc-200 hover:-translate-y-1"
+                className="bg-white border  border-zinc-400 rounded-lg px-6 py-3 shadow-xl transition duration-300 ease-out hover:bg-hover-gray  hover:-translate-y-1"
                 key={index}
               >
                 {skill}
@@ -42,7 +42,7 @@ const Skills = () => {
           <ul className="flex flex-wrap justify-center gap-3 text-lg mb-3">
             {skillsToolsData.map((skill, index) => (
               <li
-                className="bg-white border  border-zinc-400 rounded-lg px-6 py-3 shadow-xl transition duration-300 ease-out hover:bg-zinc-200 hover:-translate-y-1"
+                className="bg-white border  border-zinc-400 rounded-lg px-6 py-3 shadow-xl transition duration-300 ease-out hover:bg-hover-gray  hover:-translate-y-1"
                 key={index}
               >
                 {skill}
@@ -54,7 +54,7 @@ const Skills = () => {
           <ul className="flex flex-wrap justify-center gap-3 text-lg mb-3">
             {skillsDBAndTestingData.map((skill, index) => (
               <li
-                className="bg-white border  border-zinc-400 rounded-lg px-6 py-3 shadow-xl transition duration-300 ease-out hover:bg-zinc-200 hover:-translate-y-1"
+                className="bg-white border  border-zinc-400 rounded-lg px-6 py-3 shadow-xl transition duration-300 ease-out hover:bg-hover-gray hover:-translate-y-1"
                 key={index}
               >
                 {skill}

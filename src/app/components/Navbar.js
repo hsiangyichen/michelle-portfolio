@@ -8,33 +8,39 @@ const Navbar = () => {
         <Link href="/">MICHELLE CHEN</Link>
       </div>
       <div className="flex justify-end items-center text-lg space-x-8">
-        <Link href="/" className="hover:scale-110 transition duration-300">
+        <Link
+          href="/"
+          className="duration-300 transition hover:-translate-y-0.5 hover:text-[#726f6f]"
+        >
           Home
         </Link>
-        <Link href="#about" className="hover:scale-110 transition duration-300">
+        <Link
+          href="#about"
+          className="hover:-translate-y-0.5 hover:text-[#726f6f] transition duration-300"
+        >
           About
         </Link>
         <Link
           href="#skills"
-          className="hover:scale-110 transition duration-300"
+          className="transition duration-300 hover:-translate-y-0.5 hover:text-[#726f6f]"
         >
           Skills
         </Link>
         <Link
           href="#experience"
-          className="hover:scale-110 transition duration-300"
+          className="transition duration-300 hover:-translate-y-0.5 hover:text-[#726f6f]"
         >
           Experience
         </Link>
         <Link
           href="#projects"
-          className="hover:scale-110 transition duration-300"
+          className="transition duration-300 hover:-translate-y-0.5 hover:text-[#726f6f]"
         >
           Projects
         </Link>
         <Link
           href="#contact"
-          className="hover:scale-110 transition duration-300"
+          className="transition duration-300 hover:-translate-y-0.5 hover:text-[#726f6f]"
         >
           Contact
         </Link>

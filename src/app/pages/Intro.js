@@ -9,7 +9,10 @@ import { Fade } from "react-awesome-reveal";
 
 const Intro = () => {
   return (
-    <div id="intro" className="h-[90vh] flex items-center justify-center gap-6">
+    <div
+      id="intro"
+      className="h-[90vh] flex items-center justify-center gap-6 "
+    >
       <div className="relative ml-[380px] mb-4">
         <div className="absolute top-[130px] -left-[420px] flex flex-col gap-4 min-w-[520px] z-10">
           <Fade direction="down" duration={800} delay={500} triggerOnce={true}>

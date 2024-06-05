@@ -96,3 +96,47 @@ export const experienceRightData = [
     image: "/images/dalwits-logo.jpeg",
   },
 ];
+
+export const projectsData = [
+  {
+    title: "Room Booking System",
+    description:
+      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    image: "/images/room-booking-system-website.png",
+    link: "https://room-booking-system-delta.vercel.app/",
+  },
+  {
+    title: "Unreachable Code Detection System",
+    description:
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    image: "/images/code-detection-website.png",
+    link: "https://example.com/room-booking-system",
+  },
+  {
+    title: "License Plate eCommerce Platform",
+    description:
+      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    image: "/images/license-plate-website.png",
+    link: "https://license-plate-ecommerce-platform.vercel.app/",
+  },
+
+  {
+    title: "Music App Store",
+    description:
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    image: "/images/music-world-app.png",
+    link: "https://github.com/hsiangyichen/online-music-store",
+  },
+  {
+    title: "Portfolio",
+    description:
+      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+    image: "/images/michelle-portfolio.png",
+    link: "https://license-plate-ecommerce-platform.vercel.app/",
+  },
+];
