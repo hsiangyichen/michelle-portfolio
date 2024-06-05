@@ -77,7 +77,7 @@ export const experienceRightData = [
     location: "Vancouver, Canada",
     description: [
       "Boosted sponsor satisfaction and retention by 90% through strategic collaboration and personalized sponsorship solutions.",
-      "Worked with marketing to create tailored sponsorship packages, increasing event attendance by 30% compared to prior events.",
+      "Worked with marketing to create sponsorship packages, increasing event attendance by 30% compared to prior events.",
     ],
     icon: <FaPeopleLine size="30" />,
     date: "Sep 2021 - Apr 2023",
@@ -101,24 +101,24 @@ export const projectsData = [
   {
     title: "Room Booking System",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "This system helps you find the perfect meeting room with advanced search tools for room size, A/V facilities, and location.",
+    tags: ["React", "Typescript", "Tailwind", "Prisma", "PostgreSQL", "Redux"],
     image: "/images/room-booking-system-website.png",
     link: "https://room-booking-system-delta.vercel.app/",
   },
   {
     title: "Unreachable Code Detection System",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Analyzing unreachable code simplifies complex code, helping users in identifying and understanding unreachable sections based on control flow.",
+    tags: ["Java", "Spring Boot", "Next.js", "CSS"],
     image: "/images/code-detection-website.png",
-    link: "https://example.com/room-booking-system",
+    link: "https://github.com/hsiangyichen/unreachable-code-detection-system",
   },
   {
     title: "License Plate eCommerce Platform",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "The website facilitates professional license plate trading with simplicity, security, personalized service, and an extensive, diverse inventory.",
+    tags: ["React", "TypeScript", "Next.js", "SCSS"],
     image: "/images/license-plate-website.png",
     link: "https://license-plate-ecommerce-platform.vercel.app/",
   },
@@ -126,17 +126,17 @@ export const projectsData = [
   {
     title: "Music App Store",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "This online music store lets users add/remove songs from a shopping cart, generating a receipt detailing each song, its price, and the total expenditure.",
+    tags: ["Java", "JUnit"],
     image: "/images/music-world-app.png",
     link: "https://github.com/hsiangyichen/online-music-store",
   },
   {
     title: "Portfolio",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "My portfolio website presents my professional journey, showcasing my projects and technical skills. You can also learn more about me, my goals, and my personality.",
+    tags: ["React", "Next.js", "Tailwind"],
     image: "/images/michelle-portfolio.png",
-    link: "https://license-plate-ecommerce-platform.vercel.app/",
+    link: "https://michelle-portfolio-iota.vercel.app/",
   },
 ];
