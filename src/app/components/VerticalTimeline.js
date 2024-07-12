@@ -18,7 +18,7 @@ const VerticalTimeline = ({ experienceLeftData, experienceRightData }) => {
 
           return (
             <TimelineItem
-              key={experience.id}
+              key={`${experience.id}-${index}`}
               experience={experience}
               isLeftItem={isLeftItem}
             />
@@ -82,7 +82,7 @@ const TimelineItem = ({ experience, isLeftItem }) => {
         </div>
         <ul className="list-disc pl-6 text-sm flex flex-col gap-2">
           {experience.description.map((desc, index) => (
-            <li key={index}>{desc}</li>
+            <li key={`${experience.id}-${index}`}>{desc}</li>
           ))}
         </ul>
       </div>

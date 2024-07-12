@@ -5,7 +5,7 @@ import { experienceLeftData, experienceRightData } from "../lib/data";
 
 const Experience = () => {
   return (
-    <div id="experience">
+    <div id="experience" className="pt-24">
       <h1 className="text-4xl font-semibold mb-16">Experience</h1>
       <div className="flex flex-col items-center w-full">
         <div className="">

@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 
 const About = () => {
   return (
-    <div id="about">
+    <div id="about" className="">
       <h1 className="text-4xl font-semibold">About me</h1>
       <div className="flex flex-col items-center justify-center w-full  ">
         <div className="w-full  max-w-[1000px]">
@@ -52,9 +52,37 @@ const About = () => {
                 adventures.
               </p>
             </Fade>
+            <Fade duration={1500} delay={300}>
+              <p className="pt-16">
+                💡 Fun Fact: I have a pet hamster which is on a diet! Her name
+                is Milk!
+              </p>
+            </Fade>
+            <Fade duration={1500} delay={300}>
+              <p className="pb-16 flex items-center ">
+                Let’s help my hamster find her favorite food!
+                <span>
+                  <Image
+                    src="/images/seed.png"
+                    alt="seed"
+                    width={650}
+                    height={650}
+                    style={{ width: "100%", height: "65px" }}
+                  />
+                </span>
+              </p>
+            </Fade>
           </div>
         </div>
-      </div>
+      </div>{" "}
+      <Fade duration={1500} delay={300}>
+        <iframe
+          src="https://hamster-jumping-game.vercel.app/"
+          className="w-full h-[280px]"
+          title="Hamster Jumping Game"
+          frameBorder="0"
+        />
+      </Fade>
     </div>
   );
 };

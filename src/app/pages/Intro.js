@@ -44,9 +44,9 @@ const Intro = () => {
             </div>
 
             <a href="/files/resume.pdf" download className="w-64">
-              <button class="group relative p-4 w-64 overflow-hidden rounded-lg bg-dark-brown text-lg shadow text-white ">
-                <div class="absolute inset-y-0 right-0 w-0 bg-[#e3dede] transition-all rounded-lg duration-[250ms] ease-out group-hover:w-full  border-dark-brown border-2"></div>
-                <span class="relative group-hover:text-dark-brown group-hover:font-medium ">
+              <button className="group relative p-4 w-64 overflow-hidden rounded-lg bg-dark-brown text-lg shadow text-white ">
+                <div className="absolute inset-y-0 right-0 w-0 bg-[#e3dede] transition-all rounded-lg duration-[250ms] ease-out group-hover:w-full  border-dark-brown border-2"></div>
+                <span className="relative group-hover:text-dark-brown group-hover:font-medium ">
                   Download My Resume
                 </span>
               </button>

@@ -5,7 +5,7 @@ import Project from "@/components/Project";
 
 const Projects = () => {
   return (
-    <div id="projects" className="">
+    <div id="projects" className="pt-24">
       <h1 className="text-4xl font-semibold mb-16">Projects</h1>
       <div className="flex flex-col items-center justify-center w-full  ">
         <div className="w-full  max-w-[1000px]">

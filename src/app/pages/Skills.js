@@ -10,7 +10,7 @@ import { Fade } from "react-awesome-reveal";
 
 const Skills = () => {
   return (
-    <div id="skills">
+    <div id="skills" className="pt-24">
       <h1 className="text-4xl font-semibold mb-16">Skills</h1>
       <Fade direction="down" cascade damping={0.2} triggerOnce>
         <Fade cascade damping={0.2} triggerOnce>

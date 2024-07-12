@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <Navbar />
       <Intro />
-      <div className="flex flex-col mx-56 gap-32">
+      <div className="flex flex-col mx-56">
         <About />
         <Skills />
         <Experience />
