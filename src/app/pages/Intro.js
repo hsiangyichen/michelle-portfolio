@@ -11,7 +11,7 @@ const Intro = () => {
       id="intro"
       className="h-[90vh] flex flex-col lg:flex-row items-center w-full mb-4 2xl:overflow-hidden justify-center"
     >
-      <div className="flex flex-col  min-w-[270px] ml-20 xxs:m-0 sm:min-w-[390px] 2xl:min-w-[520px] z-10 gap-2 lg:gap-4 xl:gap-6 relative top-[215px] xs:top-72 sm:top-[340px] lg:left-4 lg:top-0 xl:-left-4 2xl:top-2 2xl:left-2 ">
+      <div className="flex flex-col  min-w-[270px] ml-20 xxs:m-0 sm:min-w-[390px] 2xl:min-w-[520px] z-10 gap-2 lg:gap-4 xl:gap-6 relative top-[205px] xs:top-72 sm:top-[340px] lg:left-4 lg:top-0 xl:-left-4 2xl:top-2 2xl:left-2 ">
         <Fade direction="down" duration={800} delay={500} triggerOnce={true}>
           <h1 className="text-3xl sm:text-4xl xl:text-5xl">
             Hi, I{`'`}m <b className="font-semibold">Michelle</b>
@@ -56,7 +56,7 @@ const Intro = () => {
         </Fade>
       </div>
 
-      <div className="w-60 xs:w-72 sm:w-[360px] lg:w-[430px] xl:w-[460px] 2xl:w-[530px] relative xxs:right-12 bottom-[220px] xs:right-8 xs:bottom-52 sm:right-16 sm:bottom-60  lg:top-0 lg:right-24 xl:right-4 2xl:right-16 2xl:-top-2">
+      <div className="w-60 xs:w-72 sm:w-[360px] lg:w-[430px] xl:w-[460px] 2xl:w-[530px] relative xxs:right-12 bottom-[230px] xs:right-8 xs:bottom-52 sm:right-16 sm:bottom-60  lg:top-0 lg:right-24 xl:right-4 2xl:right-16 2xl:-top-2">
         <div>
           <Fade duration={1000} triggerOnce={true}>
             <Image
