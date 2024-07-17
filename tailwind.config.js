@@ -11,6 +11,10 @@ module.exports = {
         "dark-brown": "#2E241B",
         "hover-gray": "#f0eff0",
       },
+      screens: {
+        xs: "480px",
+        xxs: "380px",
+      },
     },
   },
   plugins: [],
