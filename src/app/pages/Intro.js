@@ -69,7 +69,7 @@ const Intro = () => {
           </Fade>
         </div>
 
-        <div className="drop-shadow-[8px_-2px_0px_rgba(0,0,0,0.15)] w-56 xs:w-[260px] sm:w-[300px] lg:w-[380px] 2xl:w-[465px] absolute -bottom-2 xxs:left-[126px] xs:-bottom-2 xs:left-32 sm:left-56 sm:-bottom-1 lg:left-48 2xl:top-28 2xl:left-64">
+        <div className="drop-shadow-[8px_-2px_0px_rgba(0,0,0,0.15)] w-56 xs:w-[260px] sm:w-[300px] lg:w-[380px] 2xl:w-[465px] absolute -bottom-2 xxs:left-[127px] xs:-bottom-2 xs:left-32 sm:left-56 sm:-bottom-1 lg:left-48 2xl:top-28 2xl:left-64">
           <Fade duration={500} triggerOnce={true}>
             <Image
               src="/images/michelle-cartoon.png"
