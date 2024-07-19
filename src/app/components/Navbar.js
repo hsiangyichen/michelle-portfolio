@@ -36,7 +36,7 @@ const Navbar = () => {
     ));
 
   return (
-    <nav className="w-full flex justify-between items-center pt-6 h-[10vh] overflow-hidden">
+    <nav className="w-full px-4 flex justify-between items-center pt-6 h-[10vh] overflow-hidden">
       <div className="flex justify-start items-center text-lg min-w-48">
         <Link href="/">MICHELLE CHEN</Link>
       </div>

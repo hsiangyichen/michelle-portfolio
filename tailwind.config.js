@@ -12,8 +12,9 @@ module.exports = {
         "hover-gray": "#f0eff0",
       },
       screens: {
-        xs: "480px",
-        xxs: "380px",
+        s: "480px",
+        xs: "400px",
+        xxs: "300px",
       },
     },
   },
