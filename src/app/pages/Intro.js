@@ -37,13 +37,13 @@ const Intro = () => {
         </div>
       </div>
 
-      <div className="flex flex-col xs:self-center px-4 min-w-[390px] sm:min-w-[390px] md:min-w-[430px] lg:min-w-[450px] 2xl:min-w-[550px] z-10 lg:relative lg:left-10 xl:left-0 xl:-top-12 ">
+      <div className="flex flex-col xs:self-center px-4 min-w-[390px] sm:min-w-[390px] md:min-w-[430px] lg:min-w-[450px] 2xl:min-w-[550px] z-10 lg:relative lg:left-10 xl:left-0 xl:-top-4 ">
         <Fade direction="down" duration={800} delay={500} triggerOnce={true}>
           <h1 className="text-2xl xxs:text-4xl xs:text-4xl xl:text-5xl xxs:mb-2 xl:mb-5 2xl:mb-7">
             Hi, I{`'`}m <b className="font-semibold">Michelle</b>
             , <br />
           </h1>
-          <div className="text-2xl xxs:text-3xl md:text-4xl 2xl:text-5xl mb-4 h-7 sm:h-9 md:h-10 xl:h-12 2xl:h-16">
+          <div className="text-2xl xxs:text-3xl md:text-4xl 2xl:text-5xl mb-4 h-7 xxs:h-8 sm:h-9 md:h-10 xl:h-12 2xl:h-16">
             {/* <p>a Full Stack Developer.</p> */}
             <Typewriter
               texts={[
@@ -83,7 +83,7 @@ const Intro = () => {
         </Fade>
       </div>
 
-      <div className="hidden relative lg:block right-14 -top-8 xl:right-16 xl:-top-20">
+      <div className="hidden relative lg:block right-14 -top-8 xl:right-16 xl:-top-14">
         <Fade duration={1000} triggerOnce={true}>
           <div className="">
             <Image

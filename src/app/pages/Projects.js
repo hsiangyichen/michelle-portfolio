@@ -5,7 +5,7 @@ import Project from "@/components/Project";
 
 const Projects = () => {
   return (
-    <div id="projects" className="pt-12 xl:pt-24">
+    <div id="projects" className="px-4 sm:p-0 pt-12 xl:pt-24">
       <h1 className="text-2xl xl:text-3xl 2xl:text-4xl  font-semibold mb-8 xl:mb-16">
         Projects
       </h1>

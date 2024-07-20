@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 
 const About = () => {
   return (
-    <div id="about" className="">
+    <div id="about" className="px-4 sm:p-0 ">
       <h1 className="text-2xl xl:text-3xl 2xl:text-4xl font-semibold ">
         About me
       </h1>
