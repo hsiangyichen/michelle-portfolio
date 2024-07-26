@@ -6,6 +6,7 @@ import Contact from "@/pages/Contact";
 import Intro from "@/pages/Intro";
 import SideItem from "@/components/SideItem";
 import Skills from "@/pages/Skills";
+import Footer from "./components/Footer";
 // import About from "./pages/About";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       </div>
       <Contact />
       <SideItem />
+      <Footer />
     </>
   );
 }
