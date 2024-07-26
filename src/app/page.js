@@ -23,7 +23,7 @@ export default function Home() {
       </div>
       <Contact />
       <SideItem />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
