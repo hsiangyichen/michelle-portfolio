@@ -5,12 +5,13 @@ import { Fade } from "react-awesome-reveal";
 
 const About = () => {
   return (
-    <div id="about" className="px-4 sm:p-0 ">
-      <h1 className="text-2xl xl:text-3xl 2xl:text-4xl font-semibold ">
-        About me
-      </h1>
+    <div id="about" className="px-4 sm:p-0 pt-12 xl:pt-24 ">
       <div className="flex flex-col items-center justify-center w-full  ">
         <div className="w-full  max-w-[1000px]">
+          {" "}
+          <h1 className="text-2xl xl:text-3xl 2xl:text-4xl font-semibold mb-8 xl:mb-8">
+            About me
+          </h1>
           <div className="flex flex-col s:flex-row s:items-center s:justify-center 2xl:gap-12 md:gap-6 s:gap-3 gap-8">
             <Fade duration={1500}>
               <div className="hidden s:block pr-0 xl:pr-6 my-4 s:my-6 md:mt-6 md:mb-4 2xl:mt-16 2xl:mb-10  w-[160px] lg:w-[200px] 2xl:w-full">
@@ -23,17 +24,17 @@ const About = () => {
               </div>
             </Fade>
             <Fade duration={1500}>
-              <div className="text-sm md:text-base lg:text-lg 2xl:text-xl leading-loose md:leading-loose lg:leading-loose xl:leading-loose 2xl:leading-loose flex flex-col s:gap-6">
+              <div className="text-base lg:text-lg 2xl:text-xl leading-loose md:leading-loose lg:leading-loose xl:leading-loose 2xl:leading-loose flex flex-col s:gap-6">
                 <p className="mb-6">
                   Hey there, I{`'`}m <b> Michelle Chen</b>!
                 </p>
                 <div className="flex w-full items-center justify-center mb-6 s:hidden">
                   <Image
-                    src="/images/michelle-profile.png"
+                    src="/images/michelle-about.png"
                     alt="Description of image"
                     width={800}
                     height={800}
-                    className="w-40"
+                    className="w-2/3 rounded-xl "
                   />
                 </div>
 
@@ -48,7 +49,7 @@ const About = () => {
               </div>
             </Fade>
           </div>
-          <div className="flex flex-col text-sm lg:text-lg 2xl:text-xl leading-loose md:leading-loose lg:leading-loose xl:leading-loose 2xl:leading-loose">
+          <div className="flex flex-col text-base lg:text-lg 2xl:text-xl leading-loose md:leading-loose lg:leading-loose xl:leading-loose 2xl:leading-loose">
             <Fade duration={1500} delay={200}>
               <p className="block lg:hidden mb-6">
                 I am a <b>full-stack developer</b> with a passion for crafting
@@ -85,7 +86,7 @@ const About = () => {
         </div>
       </div>
       <Fade duration={1500} delay={300}>
-        <div className="hidden xl:flex items-center justify-center w-full  ">
+        <div className="hidden xl:flex items-center justify-center w-full ">
           <iframe
             src="https://hamster-jumping-game.vercel.app/"
             className="w-full h-[280px] max-w-[1000px]"

@@ -16,6 +16,15 @@ module.exports = {
         xs: "400px",
         xxs: "300px",
       },
+      animation: {
+        "bounce-arrow": "bounceArrow 1.5s infinite",
+      },
+      keyframes: {
+        bounceArrow: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-5px)" },
+        },
+      },
     },
   },
   plugins: [],

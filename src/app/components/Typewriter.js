@@ -5,7 +5,7 @@ const Typewriter = ({ texts, period }) => {
   const [text, setText] = useState("a Software Engineer");
   const [isDeleting, setIsDeleting] = useState(false);
   const [loopNum, setLoopNum] = useState(0);
-  const [delta, setDelta] = useState(200 - Math.random() * 100);
+  const [delta, setDelta] = useState(100 - Math.random() * 50); // Adjusted for faster typing
 
   useEffect(() => {
     const handleTick = () => {
@@ -24,11 +24,11 @@ const Typewriter = ({ texts, period }) => {
       } else if (isDeleting && text === "") {
         setIsDeleting(false);
         setLoopNum(loopNum + 1);
-        setDelta(500);
+        setDelta(200); // Adjusted for faster switching
       } else {
         const newDelta = isDeleting
-          ? (200 - Math.random() * 100) / 2
-          : 200 - Math.random() * 100;
+          ? (100 - Math.random() * 50) / 2 // Adjusted for faster deletion
+          : 100 - Math.random() * 50; // Adjusted for faster typing
         setDelta(newDelta);
       }
     };
@@ -42,7 +42,8 @@ const Typewriter = ({ texts, period }) => {
 
   return (
     <h1>
-      <span className="wrap">{text}</span>
+      <span className="wrap">{text || "\u00A0"}</span>{" "}
+      {/* Non-breaking space */}
     </h1>
   );
 };

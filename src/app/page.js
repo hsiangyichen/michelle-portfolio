@@ -13,6 +13,7 @@ export default function Home() {
     <>
       <Navbar />
       <Intro />
+
       <div className="flex flex-col mx-0 sm:mx-24 lg:mx-32 xl:mx-56">
         <About />
         <Skills />
