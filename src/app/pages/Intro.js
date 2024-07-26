@@ -25,7 +25,7 @@ const Intro = () => {
     <>
       <div
         id="intro"
-        className="h-[82vh] items-center justify-center overflow-x-hidden flex flex-col md:flex-row w-full gap-20 md:gap-0"
+        className="h-[82vh] items-center justify-center overflow-x-hidden flex flex-col md:flex-row w-full gap-12 md:gap-0"
       >
         <div className="flex flex-col px-4 z-10 md:relative md:left-20 lg:left-28 xl:left-28 xl:-top-4 2xl:left-20 w-full xxs:max-w-fit">
           <Fade direction="down" duration={800} delay={500} triggerOnce={true}>
@@ -71,11 +71,11 @@ const Intro = () => {
           </Fade>
         </div>
 
-        <div className="flex items-center justify-center relative md:-top-8 md:right-24 lg:right-52 lg:-top-12 xl:right-40 xl:-top-14 2xl:right-52">
+        <div className="px-4 flex items-center justify-center relative md:-top-8 md:right-24 lg:right-52 lg:-top-12 xl:right-40 xl:-top-14 2xl:right-52">
           <Fade duration={1000} triggerOnce={true}>
             <div className="relative -top-16 md:top-0">
               <Image
-                className="z-0 opacity-35 min-w-full w-[360px] sm:min-w-[385px] sm:w-[385px] md:min-w-[400px] md:w-[400px] lg:min-w-[420px] xl:w-[460px] 2xl:w-[510px]"
+                className="z-0 opacity-35 min-w-[360px] w-[360px] sm:min-w-[385px] sm:w-[385px] md:min-w-[400px] md:w-[400px] lg:min-w-[420px] xl:w-[460px] 2xl:w-[510px]"
                 src={`/images/${currentLabel}.png`}
                 alt="Description of image"
                 width={580}
@@ -96,7 +96,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center h-[8vh]">
+      <div className="flex flex-col items-center  justify-center h-[8vh]">
         <Fade duration={800} delay={500}>
           <BsArrowDown
             strokeWidth={0.1}
