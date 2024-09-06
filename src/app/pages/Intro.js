@@ -25,7 +25,7 @@ const Intro = () => {
     <>
       <div
         id="intro"
-        className="min-h-[660px] h-[82vh] items-center justify-center overflow-x-hidden flex flex-col md:flex-row w-full gap-12 md:gap-0"
+        className="sm:h-[80vh] py-12 items-center md:justify-center overflow-x-hidden flex flex-col md:flex-row w-full gap-12 md:gap-0"
       >
         <div className="flex flex-col px-4 z-10 md:relative md:left-20 lg:left-28 xl:left-28 2xl:left-20 w-full xxs:max-w-fit">
           <Fade direction="down" duration={800} delay={500} triggerOnce={true}>
@@ -91,7 +91,7 @@ const Intro = () => {
             </div>
           </Fade>
 
-          <div className="drop-shadow-[8px_-2px_0px_rgba(0,0,0,0.15)] max-w-full w-[240px] md:w-[250px] lg:w-[290px] xl:w-[305px] 2xl:w-[325px] absolute top-2 sm:top-6 md:left-44 lg:left-[228px] lg:top-12 xl:left-56 xl:top-20 2xl:left-[280px] 2xl:top-[86px">
+          <div className="drop-shadow-[8px_-2px_0px_rgba(0,0,0,0.15)] max-w-full w-[230px] md:w-[250px] lg:w-[290px] xl:w-[305px] 2xl:w-[325px] absolute top-2 sm:top-6 md:left-44 lg:left-[228px] lg:top-12 xl:left-56 xl:top-20 2xl:left-[280px] 2xl:top-[86px">
             <Fade duration={500} triggerOnce={true}>
               <Image
                 src="/images/michelle-cartoon.png"
@@ -103,7 +103,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center h-[8vh]">
+      <div className="flex flex-col items-center justify-center h-[10vh]">
         <Fade duration={800} delay={500}>
           <BsArrowDown
             strokeWidth={0.1}
