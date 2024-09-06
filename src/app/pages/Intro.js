@@ -25,9 +25,9 @@ const Intro = () => {
     <>
       <div
         id="intro"
-        className="h-[70vh] xl:h-[82vh] items-center justify-center overflow-x-hidden flex flex-col md:flex-row w-full gap-12 md:gap-0"
+        className="min-h-[70vh] xl:h-[82vh] xs:items-center justify-center overflow-x-hidden flex flex-col md:flex-row w-full gap-12 md:gap-0"
       >
-        <div className="flex flex-col px-2 z-10 md:relative md:left-20 lg:left-28 xl:left-28 2xl:left-20 w-full xxs:max-w-fit">
+        <div className="flex flex-col px-4 z-10 md:relative md:left-20 lg:left-28 xl:left-28 2xl:left-20 w-full xxs:max-w-fit">
           <Fade direction="down" duration={800} delay={500} triggerOnce={true}>
             <h1 className="text-2xl xxs:text-3xl xxs:leading-10 xs:text-3xl md:text-4xl xl:text-5xl xxs:mb-1 xs:mb-2 md:mb-2.5 xl:mb-5 2xl:mb-7">
               Hi, I{`'`}m <b className="font-semibold">Michelle</b>
@@ -46,13 +46,13 @@ const Intro = () => {
           <Fade direction="up" duration={800} delay={500} triggerOnce={true}>
             <div className="flex gap-3 2xl:gap-5 mb-2 xxs:mb-4">
               <a href="https://github.com/hsiangyichen">
-                <Github className="size-7 sm:size-8 lg:size-9  transition-transform hover:scale-110" />
+                <Github className="size-[26px] sm:size-8 lg:size-9  transition-transform hover:scale-110" />
               </a>
               <a href="https://www.linkedin.com/in/michellech2539/">
-                <Linkedin className="size-7 sm:size-8 lg:size-9 transition-transform hover:scale-110" />
+                <Linkedin className="size-[26px] sm:size-8 lg:size-9 transition-transform hover:scale-110" />
               </a>
               <a href="mailto:michellech2539@gmail.com">
-                <Mail className="size-7 sm:size-8 lg:size-9  transition-transform hover:scale-110" />
+                <Mail className="size-[26px] sm:size-8 lg:size-9  transition-transform hover:scale-110" />
               </a>
             </div>
 
@@ -96,7 +96,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center  justify-center h-[8vh]">
+      <div className="flex flex-col items-center justify-center h-[8vh]">
         <Fade duration={800} delay={500}>
           <BsArrowDown
             strokeWidth={0.1}
