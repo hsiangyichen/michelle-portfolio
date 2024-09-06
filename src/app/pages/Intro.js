@@ -71,11 +71,11 @@ const Intro = () => {
           </Fade>
         </div>
 
-        <div className="px-4 flex items-center justify-center relative md:top-2 md:right-12 lg:right-36 lg:-top-6 xl:right-28 xl:-top-6 2xl:right-32">
+        <div className="px-4 flex items-center justify-center relative -top-14 md:top-2 md:right-12 lg:right-36 lg:-top-6 xl:right-28 xl:-top-6 2xl:right-32">
           <Fade duration={1000} triggerOnce={true}>
             <div className="relative -top-16 md:top-0">
               <Image
-                className="z-0 opacity-35 min-w-[360px] w-[360px] sm:min-w-[385px] sm:w-[385px] md:min-w-[400px] md:w-[400px] lg:min-w-[420px] xl:w-[460px] 2xl:w-[510px]"
+                className="z-0 opacity-35 min-w-[340px] w-[340px] sm:min-w-[385px] sm:w-[385px] md:min-w-[400px] md:w-[400px] lg:min-w-[420px] xl:w-[460px] 2xl:w-[510px]"
                 src={`/images/${currentLabel}.png`}
                 alt="Description of image"
                 width={580}
