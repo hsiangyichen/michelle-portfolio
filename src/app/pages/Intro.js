@@ -25,7 +25,7 @@ const Intro = () => {
     <>
       <div
         id="intro"
-        className="min-h-[590px] h-[82vh] xs:items-center justify-center overflow-x-hidden flex flex-col md:flex-row w-full gap-12 md:gap-0"
+        className="min-h-[660px] h-[82vh] items-center justify-center overflow-x-hidden flex flex-col md:flex-row w-full gap-12 md:gap-0"
       >
         <div className="flex flex-col px-4 z-10 md:relative md:left-20 lg:left-28 xl:left-28 2xl:left-20 w-full xxs:max-w-fit">
           <Fade direction="down" duration={800} delay={500} triggerOnce={true}>
@@ -54,9 +54,16 @@ const Intro = () => {
               <a href="mailto:michellech2539@gmail.com">
                 <Mail className="size-[26px] sm:size-8 lg:size-9  transition-transform hover:scale-110" />
               </a>
+              <a href="/files/resume.pdf" download className="sm:hidden">
+                <Download className="size-[26px] sm:size-8 lg:size-9  transition-transform hover:scale-110" />
+              </a>
             </div>
 
-            <a href="/files/resume.pdf" download className="2xl:w-64 ">
+            <a
+              href="/files/resume.pdf"
+              download
+              className="hidden sm:block 2xl:w-64"
+            >
               <button className="group relative py-1.5 px-5 xxs:py-2 sm:p-2 sm:w-32 2xl:p-4 2xl:w-64 overflow-hidden rounded-md 2xl:rounded-lg bg-dark-brown 2xl:text-lg shadow text-white sm:text-base text-sm">
                 <div className="absolute inset-y-0 right-0 w-0 bg-[#e3dede] transition-all rounded-md 2xl:rounded-lg duration-[250ms] ease-out group-hover:w-full  border-dark-brown border-2"></div>
                 <span className="flex flex-row items-center justify-center relative group-hover:text-dark-brown group-hover:font-medium ">
@@ -71,7 +78,7 @@ const Intro = () => {
           </Fade>
         </div>
 
-        <div className="px-4 flex items-center justify-center relative -top-14 md:top-2 md:right-12 lg:right-36 lg:-top-6 xl:right-28 xl:-top-6 2xl:right-32">
+        <div className="px-4 flex items-center justify-center relative top-4 md:top-2 md:right-12 lg:right-36 lg:-top-6 xl:right-28 xl:-top-6 2xl:right-32">
           <Fade duration={1000} triggerOnce={true}>
             <div className="relative -top-16 md:top-0">
               <Image
