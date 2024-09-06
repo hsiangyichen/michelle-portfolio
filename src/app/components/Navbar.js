@@ -37,10 +37,10 @@ const Navbar = () => {
 
   return (
     <nav className="w-full px-4 flex justify-between items-center pt-6 h-[10vh] overflow-hidden">
-      <div className="flex justify-start items-center text-lg min-w-48">
+      <div className="flex justify-start items-center text-base min-w-48">
         <Link href="/">MICHELLE CHEN</Link>
       </div>
-      <div className="hidden lg:flex justify-end items-center text-lg space-x-8">
+      <div className="hidden lg:flex justify-end items-center text-base space-x-8">
         {renderNavLinks()}
       </div>
       <div className="w-full lg:hidden flex justify-end items-center">
