@@ -24,7 +24,7 @@ const About = () => {
               </div>
             </Fade>
             <Fade duration={1500}>
-              <div className="text-base lg:text-lg 2xl:text-xl leading-loose md:leading-loose lg:leading-loose xl:leading-loose 2xl:leading-loose flex flex-col s:gap-6">
+              <div className="text-lg lg:text-lg 2xl:text-xl leading-loose md:leading-loose lg:leading-loose xl:leading-loose 2xl:leading-loose flex flex-col s:gap-6">
                 <p className="mb-6">
                   Hey there, I{`'`}m <b> Michelle Chen</b>!
                 </p>
@@ -49,7 +49,7 @@ const About = () => {
               </div>
             </Fade>
           </div>
-          <div className="flex flex-col text-base lg:text-lg 2xl:text-xl leading-loose md:leading-loose lg:leading-loose xl:leading-loose 2xl:leading-loose">
+          <div className="flex flex-col text-lg lg:text-lg 2xl:text-xl leading-loose md:leading-loose lg:leading-loose xl:leading-loose 2xl:leading-loose">
             <Fade duration={1500} delay={200}>
               <p className="block lg:hidden mb-6">
                 I am a <b>full-stack developer</b> with a passion for crafting
