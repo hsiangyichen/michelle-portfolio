@@ -25,7 +25,7 @@ const Intro = () => {
     <>
       <div
         id="intro"
-        className="sm:h-[80vh] py-10 items-center md:justify-center overflow-x-hidden flex flex-col md:flex-row w-full gap-12 md:gap-0"
+        className="sm:h-[80vh] py-12 items-center md:justify-center overflow-x-hidden flex flex-col md:flex-row w-full gap-12 md:gap-0"
       >
         <div className="flex flex-col px-4 z-10 md:relative md:left-20 lg:left-28 xl:left-28 2xl:left-20 w-full xxs:max-w-fit">
           <Fade direction="down" duration={800} delay={500} triggerOnce={true}>
