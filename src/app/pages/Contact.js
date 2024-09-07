@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="xxs:px-4 xs:px-6 s:px-20 sm:px-0 mb-14 sm:mb-24 sm:mt-14 md:mb-36 md:mt-24 flex flex-col md:flex-row mx-4 sm:mx-24 lg:items-center justify-center gap-4 md:gap-6"
+      className="xxs:px-5 xs:px-6 s:px-20 sm:px-0 mb-14 sm:mb-24 sm:mt-14 md:mb-36 md:mt-24 flex flex-col md:flex-row mx-4 sm:mx-24 lg:items-center justify-center gap-4 md:gap-6"
     >
       <div className="flex flex-col gap-2">
         <Fade cascade damping={0.2} triggerOnce>

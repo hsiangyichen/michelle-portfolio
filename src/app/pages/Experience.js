@@ -9,7 +9,7 @@ const Experience = () => {
   return (
     <div
       id="experience"
-      className="px-4 sm:px-0 pt-12 xl:pt-24 flex flex-col w-full items-center"
+      className="px-5 sm:px-0 pt-12 xl:pt-24 flex flex-col w-full items-center"
     >
       <h1 className="w-full  max-w-[1000px] text-2xl xl:text-3xl 2xl:text-4xl font-semibold mb-8 xl:mb-16">
         Experience

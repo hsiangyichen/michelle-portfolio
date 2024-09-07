@@ -12,7 +12,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="px-4 sm:px-0 pt-12 xl:pt-24 flex flex-col w-full items-center"
+      className="px-5 sm:px-0 pt-12 xl:pt-24 flex flex-col w-full items-center"
     >
       <h1 className="w-full  max-w-[1000px] text-2xl xl:text-3xl 2xl:text-4xl font-semibold mb-8 xl:mb-16">
         Skills
@@ -43,7 +43,7 @@ const Skills = () => {
             <ul className="flex flex-wrap justify-center gap-1 lg:gap-3 text-sm lg:text-base 2xl:text-lg mb-3">
               {skillsLanguageData.map((skill, index) => (
                 <li
-                  className="px-3 py-1 lg:px-4 lg:py-1.5 xl:px-5 xl:py-3 rounded-md xl:rounded-lg  bg-white border  border-zinc-400 shadow-xl transition duration-300 ease-out hover:bg-hover-gray  hover:-translate-y-1"
+                  className="px-3 py-1 lg:px-5 lg:py-1.5 xl:px-5 xl:py-3 rounded-md xl:rounded-lg  bg-white border  border-zinc-400 shadow-xl transition duration-300 ease-out hover:bg-hover-gray  hover:-translate-y-1"
                   key={index}
                 >
                   {skill}

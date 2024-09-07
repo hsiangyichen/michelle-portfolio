@@ -27,7 +27,7 @@ const Intro = () => {
         id="intro"
         className="sm:h-[80vh] py-14 items-center md:justify-center overflow-x-hidden flex flex-col md:flex-row w-full gap-12 md:gap-0"
       >
-        <div className="flex flex-col px-4 z-10 md:relative md:left-20 lg:left-28 xl:left-28 2xl:left-20 w-full xxs:max-w-fit">
+        <div className="flex flex-col px-5 z-10 md:relative md:left-20 lg:left-28 xl:left-28 2xl:left-20 w-full xxs:max-w-fit">
           <Fade direction="down" duration={800} delay={500} triggerOnce={true}>
             <h1 className="text-2xl xxs:text-4xl xxs:leading-10 xs:text-4xl md:text-4xl xl:text-5xl xxs:mb-1 xs:mb-2 md:mb-2.5 xl:mb-5 2xl:mb-7">
               Hi, I{`'`}m <b className="font-semibold">Michelle</b>
@@ -78,7 +78,7 @@ const Intro = () => {
           </Fade>
         </div>
 
-        <div className="px-4 flex items-center justify-center relative top-4 md:top-2 md:right-12 lg:right-36 lg:-top-6 xl:right-28 xl:-top-6 2xl:right-32">
+        <div className="px-5 flex items-center justify-center relative top-4 md:top-2 md:right-12 lg:right-36 lg:-top-6 xl:right-28 xl:-top-6 2xl:right-32">
           <Fade duration={1000} triggerOnce={true}>
             <div className="relative -top-16 md:top-0">
               <Image
