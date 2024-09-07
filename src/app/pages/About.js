@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 
 const About = () => {
   return (
-    <div id="about" className="px-4 sm:p-0 pt-12 xl:pt-24 ">
+    <div id="about" className="px-5 sm:p-0 pt-12 xl:pt-24 ">
       <div className="flex flex-col items-center justify-center w-full  ">
         <div className="w-full  max-w-[1000px]">
           {" "}

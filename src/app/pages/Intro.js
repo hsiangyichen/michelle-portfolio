@@ -103,7 +103,7 @@ const Intro = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center h-[10vh]">
+      <div className="flex flex-col items-center justify-center pt-4 sm:pt-0 sm:h-[10vh]">
         <Fade duration={800} delay={500}>
           <BsArrowDown
             strokeWidth={0.1}
