@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         "dark-brown": "#2E241B",
         "hover-gray": "#f0eff0",
+        "rose-beige": "#e3dede",
       },
       screens: {
         s: "480px",

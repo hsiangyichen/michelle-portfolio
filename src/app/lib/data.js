@@ -22,6 +22,7 @@ export const skillsFrameworkAndLibraryData = [
   "Node.js",
   "Spring Boot",
   "Apache POI",
+  "Redux",
 ];
 
 export const skillsToolsData = [
@@ -36,9 +37,8 @@ export const skillsDBAndTestingData = [
   "Mocha",
   "Chai.js",
   "JUnit",
-  "MySQL",
   "PostgreSQL",
-  "Oracle DB",
+  "racle SQL",
 ];
 
 export const experienceLeftData = [
@@ -47,10 +47,33 @@ export const experienceLeftData = [
     institution: "Binance.US",
     location: "Vancouver, Canada",
     description: [
-      "Used Vue.js and Java Spring Boot to enhance UIs and API integration, boosting user access by 95%",
-      "Developed AWS S3-based image storage with Java, featuring client-side uploads and AWS SDK integration.",
-      "Integrated Apache POI for data export, enabling Excel downloads.",
-      "Enhanced usability with dynamic, responsive UIs using Element UI.",
+      <>
+        Developed finance platform with <strong>Java Spring Boot</strong> and{" "}
+        <strong>Vue.js</strong>, improving transaction efficiency by{" "}
+        <strong>95%</strong>
+      </>,
+      <>
+        Implemented <strong>AWS S3 image storage</strong> with Java, featuring
+        client-side uploads and AWS SDK integration.
+      </>,
+      <>
+        Integrated <strong>Apache POI</strong> for data export, enabling Excel
+        downloads.
+      </>,
+      <>
+        Built transaction alerts with Slack Webhooks via{" "}
+        <strong>HttpClient</strong>, boosting response times and reducing manual
+        oversight.
+      </>,
+      <>
+        <strong>Exceeded intern responsibilities</strong> by refactoring code,{" "}
+        <strong>reducing duplication</strong> by <strong>30%</strong>, enhancing
+        scalability and consistency.
+      </>,
+      <>
+        Enhanced usability with dynamic, responsive UIs using{" "}
+        <strong>Element UI</strong>.
+      </>,
     ],
     icon: <CgWorkAlt size="30" />,
     date: "Jan 2023 - Aug 2023",
@@ -113,6 +136,14 @@ export const projectsData = [
     tags: ["Java", "Spring Boot", "Next.js", "CSS"],
     image: "/images/code-detection-website.png",
     link: "https://github.com/hsiangyichen/unreachable-code-detection-system",
+  },
+  {
+    title: "Sports Training Website",
+    description:
+      "This website offers a range of sports training programs with multilingual support, allowing users to register for classes.",
+    tags: ["React", "Next.js", "Tailwind"],
+    image: "/images/sports-training-website.png",
+    link: "https://sport-training-website.vercel.app/en",
   },
   {
     title: "License Plate eCommerce Platform",

@@ -27,7 +27,7 @@ const Navbar = () => {
         className={`transition  ${
           isMobile
             ? "hover:text-[#807c7c] duration-100"
-            : "hover:text-[#726f6f] duration-300 hover:-translate-y-0.5"
+            : "hover:text-[#726f6f] duration-200 hover:-translate-y-0.5"
         }`}
         onClick={isMobile ? toggleMenu : undefined}
       >
@@ -36,7 +36,7 @@ const Navbar = () => {
     ));
 
   return (
-    <nav className="w-full px-5 flex justify-between items-center pt-6 h-[10vh] overflow-hidden">
+    <nav className="w-full flex justify-between items-center pt-6 h-[10vh] overflow-hidden bg-rose-beige z-50 opacity-95 pl-5 pr-5 sm:pl-[70px] sm:pr-[50px]">
       <div className="flex justify-start items-center text-lg min-w-48">
         <Link href="/">MICHELLE CHEN</Link>
       </div>
