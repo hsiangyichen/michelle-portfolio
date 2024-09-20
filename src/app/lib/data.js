@@ -38,7 +38,7 @@ export const skillsDBAndTestingData = [
   "Chai.js",
   "JUnit",
   "PostgreSQL",
-  "racle SQL",
+  "Oracle SQL",
 ];
 
 export const experienceLeftData = [
