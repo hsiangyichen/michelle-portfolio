@@ -30,6 +30,8 @@ export const skillsToolsData = [
   "AWS",
   "Maven",
   "Prisma",
+  "Docker",
+  "GraphQL",
   "Tailwind CSS",
 ];
 
@@ -37,8 +39,10 @@ export const skillsDBAndTestingData = [
   "Mocha",
   "Chai.js",
   "JUnit",
+  "Jest",
   "PostgreSQL",
   "Oracle SQL",
+  "MongoDB",
 ];
 
 export const experienceLeftData = [
