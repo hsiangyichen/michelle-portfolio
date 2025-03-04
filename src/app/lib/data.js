@@ -8,26 +8,29 @@ import { FaLaptopCode } from "react-icons/fa6";
 export const skillsLanguageData = [
   "Java",
   "Python",
-  "HTML",
-  "CSS",
-  "SCSS",
+  "HTML5",
+  "CSS3",
   "JavaScript",
   "TypeScript",
 ];
 
 export const skillsFrameworkAndLibraryData = [
+  "SASS",
   "React",
-  "Vue.js",
   "Next.js",
+  "Vite",
+  "Vue.js",
   "Node.js",
+  "express",
+  "Knex.js",
   "Spring Boot",
-  "Apache POI",
-  "Redux",
 ];
 
 export const skillsToolsData = [
   "Git",
   "AWS",
+  "Figma",
+  "Redux",
   "Maven",
   "Prisma",
   "Docker",
@@ -38,14 +41,58 @@ export const skillsToolsData = [
 export const skillsDBAndTestingData = [
   "Mocha",
   "Chai.js",
-  "JUnit",
   "Jest",
+  "JUnit",
+  "MySQL",
   "PostgreSQL",
-  "Oracle SQL",
   "MongoDB",
 ];
 
 export const experienceLeftData = [
+  {
+    title: "Diploma, Software Engineering",
+    institution: "BrainStation",
+    location: "Remote",
+    description: [
+      <>
+        Completed an intensive 12-week program focused on modern{" "}
+        <strong>full-stack development</strong> methodologies and industry best
+        practices, achieving a <strong>98% final grade</strong>
+      </>,
+      <>
+        Built responsive web applications using{" "}
+        <strong>React, Node.js, and Express</strong>, implementing RESTful APIs
+        and database integration
+      </>,
+      <>
+        Applied <strong>agile development practices</strong> through
+        collaborative sprints, code reviews, and iterative development cycles
+      </>,
+    ],
+    icon: <CgWorkAlt size="30" />,
+    date: "Nov 2024 - Feb 2025",
+    image: "/images/brainstation.jpg",
+  },
+  {
+    title: "Software Engineer for AI Training",
+    institution: "Outlier",
+    location: "Remote",
+    description: [
+      <>
+        Refined AI-generated code outputs for clarity, scalability, and
+        performance in <strong>Python, JavaScript, and Java</strong>, improving
+        code quality for training and production environments.
+      </>,
+      <>
+        Delivered detailed technical feedback to enhance development processes,
+        supporting enhancements in model accuracy and \newline deployment
+        processes.
+      </>,
+    ],
+    icon: <CgWorkAlt size="30" />,
+    date: "Oct 2024 - Present",
+    image: "/images/outlier.jpeg",
+  },
   {
     title: "Full Stack Developer",
     institution: "Binance.US",
@@ -84,7 +131,7 @@ export const experienceLeftData = [
     image: "/images/binance-logo.jpeg",
   },
   {
-    title: "Graduate",
+    title: "Bachelor of Science | Major in computer science",
     institution: "UBC",
     location: "Vancouver, Canada",
     description: [

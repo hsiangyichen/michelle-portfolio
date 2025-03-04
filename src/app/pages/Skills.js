@@ -37,7 +37,7 @@ const Skills = () => {
         </Fade>
       </div>
 
-      <div className="hidden md:block ">
+      <div className="hidden md:block">
         <Fade direction="down" cascade damping={0.2} triggerOnce>
           <Fade cascade damping={0.2} triggerOnce>
             <ul className="flex flex-wrap justify-center gap-1 lg:gap-3 text-sm lg:text-base 2xl:text-lg mb-3">
