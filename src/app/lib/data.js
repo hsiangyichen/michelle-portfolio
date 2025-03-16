@@ -18,6 +18,7 @@ export const skillsFrameworkAndLibraryData = [
   "SASS",
   "React",
   "Next.js",
+  "NestJS",
   "Vite",
   "Vue.js",
   "Node.js",
