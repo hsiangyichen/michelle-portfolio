@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
-import { Instagram, Linkedin, Github, Mail, Download } from "lucide-react";
+import { Linkedin, Github, Mail, Download } from "lucide-react";
 import Typewriter from "../components/Typewriter";
 import { Fade } from "react-awesome-reveal";
 import { BsArrowDown } from "react-icons/bs";

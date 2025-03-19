@@ -35,7 +35,7 @@ const SideItem = () => {
               strokeWidth={2}
             />
           </a>
-          <a
+          {/* <a
             className="transition-transform"
             href="https://www.instagram.com/hsiangyi__chen/"
           >
@@ -44,7 +44,7 @@ const SideItem = () => {
               size={24}
               strokeWidth={2}
             />
-          </a>
+          </a> */}
           <a href="mailto:michellech2539@gmail.com">
             <Mail
               className="mb-6 transition-transform hover:scale-110"

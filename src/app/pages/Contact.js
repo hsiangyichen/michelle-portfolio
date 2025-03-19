@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Instagram, Linkedin, Github, Mail } from "lucide-react";
+import { Linkedin, Github, Mail } from "lucide-react";
 import { Fade } from "react-awesome-reveal";
 
 const Contact = () => {
