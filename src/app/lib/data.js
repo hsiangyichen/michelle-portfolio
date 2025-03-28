@@ -100,9 +100,10 @@ export const experienceLeftData = [
     location: "Vancouver, Canada",
     description: [
       <>
-        Developed finance platform with <strong>Java Spring Boot</strong> and{" "}
-        <strong>Vue.js</strong>, improving transaction efficiency by{" "}
-        <strong>95%</strong>
+        Developed a new finance tracking platform using{" "}
+        <strong>Java Spring Boot and Vue.js with Element UI</strong> to replace
+        manual tracking workflows, enabling real-time fund tracking and approval
+        workflows.
       </>,
       <>
         Implemented <strong>AWS S3 image storage</strong> with Java, featuring
@@ -118,17 +119,18 @@ export const experienceLeftData = [
         oversight.
       </>,
       <>
-        <strong>Exceeded intern responsibilities</strong> by refactoring code,{" "}
-        <strong>reducing duplication</strong> by <strong>30%</strong>, enhancing
-        scalability and consistency.
+        Refactored redundant codebases,{" "}
+        <strong>reducing duplication by 30%</strong> and improving{" "}
+        <strong>scalability, testability, and developer onboarding</strong>.
       </>,
       <>
-        Enhanced usability with dynamic, responsive UIs using{" "}
-        <strong>Element UI</strong>.
+        Contributed in an <strong>Agile development environment</strong>,
+        participating in sprint planning, standups, and retrospectives while
+        collaborating across backend and product teams.
       </>,
     ],
     icon: <CgWorkAlt size="30" />,
-    date: "Jan 2023 - Aug 2023",
+    date: "Feb 2023 - Aug 2023",
     image: "/images/binance-logo.jpeg",
   },
   {
