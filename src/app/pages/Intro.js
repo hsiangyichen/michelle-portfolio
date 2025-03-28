@@ -54,12 +54,12 @@ const Intro = () => {
               <a href="mailto:michellech2539@gmail.com">
                 <Mail className="size-[26px] sm:size-8 lg:size-9  transition-transform hover:scale-110" />
               </a>
-              <a href="/files/resume.pdf" download className="sm:hidden">
+              {/* <a href="/files/resume.pdf" download className="sm:hidden">
                 <Download className="size-[26px] sm:size-8 lg:size-9  transition-transform hover:scale-110" />
-              </a>
+              </a> */}
             </div>
 
-            <a
+            {/* <a
               href="/files/resume.pdf"
               download
               className="hidden sm:block 2xl:w-64"
@@ -74,7 +74,7 @@ const Intro = () => {
                   Resume
                 </span>
               </button>
-            </a>
+            </a> */}
           </Fade>
         </div>
 
